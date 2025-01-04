@@ -6,7 +6,7 @@ import { createContext, useEffect, useState } from "react"
  const StoreContextProcider=(props)=>{
 //https://food-delivery-backend-kt3s.onrender.com
     const [cartItems,setCartItems]=useState({});
-    const url="http://localhost:4000";
+    const url="https://food-del-backend-u6n1.onrender.com";
     const [token,setToken]=useState("");
     const [food_list,setFoodList]=useState([])
     const addToCart=async(itemId)=>{
