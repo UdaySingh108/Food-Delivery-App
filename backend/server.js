@@ -22,13 +22,6 @@ connectDB();
 
 const cors = require('cors');
 
-// Allow requests from the frontend domain
-app.use(cors({
-    origin: 'https://food-deli-frontend-gfa7.onrender.com',
-    methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed HTTP methods
-    credentials: true // Include cookies if necessary
-}));
-
 // api endpoints
 app.use('/api/food',foodRouter)
 app.use('/images',express.static('uploads'))
