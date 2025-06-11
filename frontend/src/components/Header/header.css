@@ -1,9 +1,13 @@
-.header{
-    height:  34vw;
-    margin: 30px auto;
-    background: url('/header_img.png') no-repeat;
-    background-size: contain;
-    position: relative;
+
+.header {
+  height: 34vw;
+  width: 100%;
+  margin: 30px auto;
+  background: url('/header_img_new.png') no-repeat center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  border-radius: 30px;
 }
 
 .header-contents{
@@ -16,6 +20,8 @@
     bottom: 10%;
     left: 6vw;
     animation: fadeIn 3s;
+    
+    
 }
 .header-contents h2{
     font-weight: 500;
@@ -25,14 +31,6 @@
 .header-contents p{
     color: white;
     font-size: 1vw;
-}
-.header-contents button{
-  border: none;
-  color: #747474;
-  font-weight: 500;
-  padding: 1vw 2.3vw;
-  font-size: max(1vw,14px) ;
-  border-radius: 30px;
 }
 @media (max-width:1050px) {
      .header-contents{
@@ -45,8 +43,5 @@
     }
     .header-contents p{
         display: none;
-    }
-    .header-contents button{
-        padding: 2vs 4vw;
     }
 }
