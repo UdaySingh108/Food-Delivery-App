@@ -3,11 +3,10 @@ import './list.css'
 import axios from "axios"
 import {toast} from "react-toastify"
 //https://food-delivery-backend-kt3s.onrender.com
-const List = () => {
-  const url="http://localhost:4000"
+const List = ({url}) => {
   const [list,setList]=useState([]);
   const fetchList=async()=>{
-    const res=await axios.get(`${url}/api/food/list`)
+    const res=await axios.get(url+"/api/food/list");
 
     if(res.data.success){
       setList(res.data.data);
