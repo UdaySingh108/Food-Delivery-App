@@ -18,6 +18,8 @@ IndieFeast-A Online Restaurant is a modern web application that allows users to 
 - #Project Screenshots
 https://github.com/user-attachments/assets/c6de42ea-b687-4d98-a903-6e8d4098bc49
 
+https://github.com/user-attachments/assets/71ace6c8-a583-4271-ab71-294fe22f07a9
+
 
 ## Getting Started
 
