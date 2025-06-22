@@ -30,6 +30,3 @@ IndieFeast-A Online Restaurant is a modern web application that allows users to 
 4. Start the development server:
 ## Contributing
 Contributions are welcome! Please open issues or submit pull requests for improvements.
-
-## License
-This project is licensed under the MIT License.
