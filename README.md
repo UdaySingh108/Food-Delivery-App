@@ -15,6 +15,8 @@ IndieFeast-A Online Restaurant is a modern web application that allows users to 
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB
 - **Authentication:** JWT
+- #Project Screenshots
+https://github.com/user-attachments/assets/c6de42ea-b687-4d98-a903-6e8d4098bc49
 
 
 ## Getting Started
